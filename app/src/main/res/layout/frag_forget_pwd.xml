@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.forgetPwd.ForgetPwdFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_forgetPwd_userinfo"
+        android:layout_width="@dimen/login_input_width"
+        android:layout_height="@dimen/login_input_height"
+        android:layout_marginTop="@dimen/login_username_top_margin"
+        android:background="@color/white"
+        app:endIconMode="clear_text"
+        app:hintEnabled="false"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_forgetPwd_title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_forgetPwd_userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="手机号"
+            android:imeOptions="actionNext"
+            android:maxLength="128"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/text_hint"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn_forgetPwd_confirm"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/style_login_btn"
+        android:enabled="false"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/til_forgetPwd_userinfo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/til_forgetPwd_userinfo"
+        app:layout_constraintTop_toBottomOf="@+id/til_forgetPwd_userinfo"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tv_forgetPwd_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_title_top_margin"
+        android:text="找回密码"
+        android:textColor="@color/black"
+        android:textSize="@dimen/login_title_text_size"
+        app:layout_constraintEnd_toEndOf="@+id/til_forgetPwd_userinfo"
+        app:layout_constraintStart_toStartOf="@+id/til_forgetPwd_userinfo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_forgetPwd_change"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:background="#00FFFFFF"
+        android:text="通过绑定邮箱找回密码"
+        android:textColor="@color/cl_veri_resend"
+        app:layout_constraintEnd_toEndOf="@+id/btn_forgetPwd_confirm"
+        app:layout_constraintStart_toStartOf="@+id/btn_forgetPwd_confirm"
+        app:layout_constraintTop_toBottomOf="@+id/btn_forgetPwd_confirm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

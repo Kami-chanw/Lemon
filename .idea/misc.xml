@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2225" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable-v24/login_button_shape.xml" value="0.1205" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable-v24/style_login_btn.xml" value="0.2265" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/bg_indicator.xml" value="0.168" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/bg_veri_cursor.xml" value="0.1205" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/bg_veri_indicator.xml" value="0.1205" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/ic_btn_back.xml" value="0.2265" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.199" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/style_login_btn.xml" value="0.168" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/style_main_course.xml" value="0.168" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/style_main_favorite.xml" value="0.168" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/style_main_home.xml" value="0.168" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/style_main_personal.xml" value="0.168" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/drawable/style_veri_resend.xml" value="0.1205" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.136328125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout-w936dp/activity_login.xml" value="0.119140625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_forget_pwd.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_fullscreen.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_fullscreen2.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_veri_code.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/agree_checkbox.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/frag_forget_pwd.xml" value="0.136" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/frag_forget_pwd_reset.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/frag_login_password.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/frag_login_sms.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/frag_main_home.xml" value="0.109375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/frag_main_home_physiology.xml" value="0.109375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/fragment_home.xml" value="0.109375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_home_fab.xml" value="0.109375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_login_mail_help.xml" value="0.109375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_login_pwd_help.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_login_sms_help.xml" value="0.109375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_main_content.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_pwd_login_help.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_sms_login_help.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/item_veri_code.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/login_help_sheet.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/login_title_bar.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/password_login_help.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/sms_login.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/sms_login_help.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/styled_edit_text.xml" value="0.152" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/veri_code_edit_text.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/layout/view_veri_code.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/menu/login_help.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/menu/menu_home_bottom_navigation.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/menu/menu_main_bottom_navigation.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/menu/menu_main_search.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/menu/menu_search.xml" value="0.15885416666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2265" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Lemon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.168" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

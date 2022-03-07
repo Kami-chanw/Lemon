@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/edit_text"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.veriCode.VeriCodeActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_title_top_margin"
+        android:text="输入验证码"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="@+id/vcv_veriCode_input"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_veriCode_back" />
+
+    <TextView
+        android:id="@+id/tv_veriCode_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_veriCode_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:contentDescription="@string/close"
+        android:scaleType="center"
+        android:src="@drawable/ic_btn_back"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:visibility="visible" />
+
+    <com.example.lemon.widget.VeriCodeView
+        android:id="@+id/vcv_veriCode_input"
+        android:layout_width="@dimen/login_input_width"
+        android:layout_height="48dp"
+        android:layout_marginTop="76dp"
+        android:maxLength="6"
+        android:textSize="11sp"
+        app:cursor="@drawable/bg_veri_cursor"
+        app:indicator="@color/cl_veri_indicator"
+        app:itemSpacing="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btn_veriCode_resend"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:text="重新发送验证码"
+        android:textAllCaps="false"
+        android:textColor="@color/cl_veri_resend"
+        app:layout_constraintStart_toStartOf="@+id/vcv_veriCode_input"
+        app:layout_constraintTop_toBottomOf="@+id/vcv_veriCode_input" />
+
+    <Button
+        android:id="@+id/btn_veriCode_voice"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="使用语音验证码"
+        android:textColor="@color/cl_veri_resend"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/vcv_veriCode_input"
+        app:layout_constraintTop_toTopOf="@+id/btn_veriCode_resend" />
+</androidx.constraintlayout.widget.ConstraintLayout>
